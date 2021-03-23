@@ -22,7 +22,8 @@ requirements:
     - python >=3
   run:
     - python
-    - pyvcf ==0.6.8
+    - pyvcf==0.6.8
+    - tqdm==4.59.0
 
 test:
   imports:
